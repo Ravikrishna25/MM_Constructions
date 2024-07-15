@@ -194,7 +194,7 @@ function Contact() {
       hideProgressBar: true,
     });
 
-    emailjs.sendForm("serviceid", "templateid", form.current, "app id)
+    emailjs.sendForm("service_91p16cq", "template_ectcmaw", form.current, "w_YXjysSub1u4G_3V")
       .then(
         (result) => {
           notify();
